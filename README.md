@@ -1,2 +1,2 @@
-# Cloud
+# CloudLife
 Based on the NSGA - II diets recommend lifestyle application.
