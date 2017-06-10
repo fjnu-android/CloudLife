@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="top_bar">#1E90FF</color>
+    <color name="dark_bar">#3A5FCD</color>
+    <color name="line">#A9A9A9</color>
+    <color name="transparent">#00000000</color>
+    <color name="mid_transparent">#60000000</color>
+    <color name="spots_dialog_color">#1E90FF</color>
+    <color name="background_tab_pressed">#1E90FF</color>
+    <color name="white">#ffffff</color>
+    <color name="light_white">#FAFAFA</color>
+    <color name="red">#E92D2C</color>
+    <color name="light_red">#E3423A</color>
+    <color name="text_noselect">#7A7A7A</color>
+    <color name="text_select">#FFFFFF</color>
+
+    <!-- circleimageview -->
+    <color name="dark">#FF222222</color>
+    <color name="light">#FFEEEEEE</color>
+    <color name="color_theme">#1E90FF</color>
+    <color name="drawer_home_color">#1E90FF</color>
+
+</resources>

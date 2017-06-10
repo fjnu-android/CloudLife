@@ -1,0 +1,72 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <!-- 查看图片黑色状态栏 -->
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="AppBaseTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- toolbar颜色 -->
+        <item name="colorPrimary">@color/drawer_home_color</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/drawer_home_color</item>
+        <item name="colorAccent">@color/drawer_home_color</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:textColorPrimary">@color/light_white</item>
+        <item name="android:textColorSecondary">@color/light_white</item>
+        <!-- 窗口背景颜色 -->
+        <item name="android:windowBackground">@color/light_white</item>
+        <!-- menu的字体大小 -->
+        <item name="actionButtonStyle">@style/ToolBar.menu.textsize</item>
+    </style>
+
+    <style name="ToolBar.menu.textsize" parent="Widget.AppCompat.Light.ActionButton">
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <!-- 主style -->
+    <style name="MainTheme" parent="AppBaseTheme.NoActionBar">
+
+        <!-- 沉浸式 -->
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!-- 透明状态栏 -->
+    <style name="FoodTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- toolbar颜色 -->
+        <item name="colorPrimary">@color/drawer_home_color</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/drawer_home_color</item>
+        <item name="colorAccent">@color/drawer_home_color</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:textColorPrimary">@color/light_white</item>
+        <item name="android:textColorSecondary">@color/light_white</item>
+        <!-- 窗口背景颜色 -->
+        <item name="android:windowBackground">@color/light_white</item>
+        <!-- menu的字体大小 -->
+        <item name="actionButtonStyle">@style/ToolBar.menu.textsize</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!-- 自定义dialog -->
+    <style name="ShareDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- popup 底部显示动画 -->
+    <style name="popBottom_anim">
+        <item name="android:windowEnterAnimation">@anim/popup_show</item>
+        <!-- 指定显示的动画xml -->
+        <item name="android:windowExitAnimation">@anim/popup_hidden</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+
+</resources>
